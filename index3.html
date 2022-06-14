@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trivago</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }
+        .header img{
+            width: 200px;
+        }
+
+        .navigation{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .navigation a{
+            text-decoration: none;
+            color: gray;
+            font-size: 16px;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .navigation a:hover{
+            color: black;
+            border-bottom: solid 2px black;
+        }
+        .hero-image{
+            height: 500px;
+            background-image: url(https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2016/10/25/1453/Grand-Hyatt-Seoul-P815-Exterior-by-the-Pool.jpg/Grand-Hyatt-Seoul-P815-Exterior-by-the-Pool.16x9.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .hero-image h1{
+            font-size: 50px;
+            text-align: center;
+            padding-top: 100px;
+            color: white;
+        }
+        .hero-image h4{
+            text-align: center;
+            color: white;
+        }
+
+        .main-container h2{
+            font-size: 24px;
+            color: #545454;
+            font-weight: bold;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .product-container{
+            width: 715px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .product-item{
+            float: left;
+            width: 225px;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 40px;
+        }
+
+        .product-item img{
+            width: 225px;
+            height: 225px;
+        }
+        .product-item:not(:nth-child(3n)){
+            margin-right: 20px;
+        }
+        .clearfix{
+            clear: both;
+        }
+
+        .product-item p {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .product-item .product-name{
+            margin-top: 20px;
+            margin-bottom: 4px;
+        }
+        .product-item .product-name{
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .clearfix{
+            clear: both;
+        }
+
+                .footer h1{
+            text-align: center;
+            font-size: 12px;
+            color: #AAAAAA;
+        }
+        .footer a{
+            text-decoration: none;
+            font-size: 12px;
+            color: #AAAAAA;
+        }
+                .footer{
+            background-color: whitesmoke;
+            height: 100px;
+            padding-top: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Trivago.svg/1200px-Trivago.svg.png"></a>
+    </div>
+    <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="index2.html">About</a>
+        <a href="index3.html">Service</a>
+        <a href="index4.html">Contact</a>
+        <a href="index4.html">info</a>
+    </div>
+    <div class="hero-image">
+        <h1>최상의 호텔 서비스</h1>
+        <h4>다양한 숙박시설을 예약해보세요!</h4>
+    </div>
+    
+    <div class="main-container">
+        <h2>Our Recent Hotel</h2>
+        <div class="product-container">
+            <a class="product-item" href="#">
+                <img src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/38/14/3814764_v1.jpeg" alt="item1">
+                <p class="product-name">유니호텔 제주</p>
+                <p class="Product-price">162,600원</p>
+            </a>
+            <a class="product-item" href="#">
+                <img src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/36/37/363786_v3.jpeg" alt="item2">
+                <p class="product-name">힐튼 경주</p>
+                <p class="Product-price">308,299원</p>
+            </a>
+            <a class="product-item" href="#">
+                <img src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/10/01/1001201_v1.jpeg" alt="item3">
+                <p class="product-name">파크 하얏트 부산</p>
+                <p class="Product-price">539,000</p>
+            </a>
+            <a class="product-item" href="#">
+                <img src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/15/53/155348_v7.jpeg" alt="item1">
+                <p class="product-name">인터콘티넨셜 서울</p>
+                <p class="Product-price">272,000</p>
+            </a>
+            <a class="product-item" href="#">
+                <img src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/15/54/155465_v2.jpeg" alt="item5">
+                <p class="product-name">롯데 호텔 서울</p>
+                <p class="Product-price">263,000원</p>
+            </a>
+            <a class="product-item" href="#">
+                <img src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/21/04/21048078.jpeg" alt="item1">
+                <p class="product-name">시그니엘 부산</p>
+                <p class="Product-price">245,000원</p>
+            </a>
+            <div class="clearfix"></div>                                                          
+        </div>
+        </div>
+
+        <div class="footer">
+        <h1>Trivago Corp. All Rights Reserved.</h1>
+        <a href="#">지원 문의</a>
+        <a href="#">트리바고 이용방법</a>
+        <a href="#">법적정보</a>
+    </div>
+        </div>
+
+    </div>
+</body>
+</html>
